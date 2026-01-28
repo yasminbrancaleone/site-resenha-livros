@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo-pagina"></title>
+
+    <link rel="icon" href="../assets/images/icone.png" type="image/png"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/details.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <img src="../assets/images/logo.png" alt="Logo do site">
+    </div>
+    <a href="../index.html" class="btn-voltar">Home</a>
+</header>
+
+<main class="conteudo">
+    <section class="resenha">
+        <img id="capa" alt="Capa do livro">
+
+        <div class="texto-resenha">
+            <h3 id="titulo"></h3>
+
+            <p><strong>Editora:</strong> <span id="editora"></span></p>
+            <p><strong>Data da publicação:</strong> <span id="publicacao"></span></p>
+            <p><strong>Número de páginas:</strong> <span id="paginas"></span></p>
+            <p><strong>Faixa etária indicativa:</strong> <span id="faixa"></span></p>
+            <p><strong>Gêneros:</strong> <span id="generos"></span></p>
+
+            <div class="descricao" id="sinopse"></div>
+        </div>
+    </section>
+
+    <aside class="coluna-lateral">
+        <div class="coluna-direita">
+            <img id="autor-img" alt="Autor">
+            <h4 id="autor-nome"></h4>
+            <div class="autor-info">
+                <p id="autor-desc"></p>
+            </div>
+        </div>
+    </aside>
+</main>
+
+<section class="texto-descricao">
+    <div class="titulo"><h3>Resenha</h3></div>
+    <div class="texto" id="resenha"></div>
+    <p class="nome" id="resenhista"></p>
+</section>
+
+<script src="../js/livros.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

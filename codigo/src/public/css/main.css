@@ -1,0 +1,76 @@
+body {
+    font-family: "Lato", sans-serif;  
+    margin: 0;
+    padding: 0;
+    background: #FEBE54;
+}
+
+header {
+    background: #347F60; 
+    color: white;
+    display: flex;               
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    position: relative;
+}
+
+header .logo img {
+    height: 70px; 
+    width: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+header .search-bar input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.livros {
+    display: grid;                       
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.livro {
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background 0.3s ease, transform 0.2s ease; 
+}
+
+.livro:hover {
+    background: #559e80;  
+    transform: translateY(-5px); 
+}
+
+.livro:hover a {
+    color: white; 
+}
+
+.livro img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.livro a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #003547; 
+}

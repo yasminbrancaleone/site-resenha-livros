@@ -1,0 +1,139 @@
+body {
+    font-family: "Lato", sans-serif;  
+    margin: 0;
+    padding: 0;
+    background: #eebd6e;
+}
+
+header {
+    background: #347F60; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    position: relative;
+}
+
+header .logo img {
+    height: 70px; 
+    width: auto;
+}
+
+.btn-voltar {
+    background-color: #63A687; 
+    color: white;              
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;     
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #285E46; 
+}
+
+.conteudo {
+    display: grid;                       
+    grid-template-columns: 3.5fr 1fr;      
+    gap: 20px;                           
+    padding: 20px;
+    align-items: start;                  
+}
+
+.resenha {
+    display: flex;                       
+    gap: 20px;
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.resenha img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.texto-resenha {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.texto-resenha h3 {
+    margin: 8px 0 7px;
+    color: #347F60;
+}
+
+.descricao {
+    text-indent: 40px;
+   text-align: justify; 
+}
+
+.descricao p{
+    margin: 0;
+}
+
+.coluna-lateral {
+    flex: 0 0 260px;   
+    margin-left: 20px;
+    align-self: flex-start; 
+}
+
+.coluna-direita {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 100%;
+}
+
+.autor-info {
+    text-align: justify;
+}
+
+.coluna-direita img {
+    width: 180px;
+    height: 250px;
+    border-radius: 5px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.coluna-direita h4 {
+    margin: 15px 0 5px;
+    color: #347F60;
+}
+
+
+.texto-descricao {
+    background: white;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.texto p {
+    text-indent: 40px;  
+    margin: 0; 
+    text-align: justify
+}
+
+.nome {
+    font-style: italic; 
+}
+
+.titulo {
+    margin: 15px 0 5px;
+    color: #347F60;
+}
