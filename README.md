@@ -18,6 +18,16 @@ Este projeto tem finalidade **exclusivamente educacional**.
 
 ---
 
+## Como acessar o site
+
+1. Baixe ou clone este repositório para o seu computador.
+2. Abra a pasta do projeto.
+3. Localize o arquivo `index.html`.
+4. Abra o arquivo `index.html` diretamente no navegador  
+   **ou** utilize a extensão **Live Server** no VS Code para uma melhor experiência.
+
+---
+
 ## Tecnologias Utilizadas
 
 - HTML
