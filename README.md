@@ -1,7 +1,7 @@
 # Ponto&Vírgula – Resenhas de Livros
 
 Este site foi desenvolvido **exclusivamente para fins acadêmicos**, como parte da disciplina de **Programação de Aplicações Web**.  
-O objetivo do projeto é praticar conceitos de **HTML, CSS e JavaScript e organização de um site estático**, incluindo navegação entre páginas, estilização e estruturação da coleção de livros de forma organizada, visual e acessível, permitindo a navegação entre títulos e a pesquisa por nome, sem a utilização de banco de dados.
+O objetivo do projeto é praticar conceitos de **HTML, CSS, JavaScript e organização de um site estático**, incluindo navegação entre páginas, estilização e estruturação da coleção de livros de forma organizada, visual e acessível, permitindo a navegação entre títulos e a pesquisa por nome, sem a utilização de banco de dados.
 
 ---
 
